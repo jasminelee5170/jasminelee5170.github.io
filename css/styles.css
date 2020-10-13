@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Piazzolla:wght@100;200;300&display=swap');
+
+/*-----elements, sorted alphabetically------*/
+html, body{
+    margin:0px;
+}
+
+/*-----classes, sorted alphabetically------*/
+
+
+.main{
+    font-family: 'Piazzolla', 'times new roman', serif;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #2b2b2b;
+    color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.navbar p{
+    float: left;
+    display: block;
+    padding: 0px 16px;
+    margin: 16px;
+    text-decoration: none;
+}
+
+.page{
+    max-width: 1900px;
+}
+
+.row {
+  display: flex;
+  overflow: hidden;
+}
+
+.column {
+  flex: 33.333%;
+  padding: 5px;
+}
+
+/*-----ids, sorted alphabetically------*/
+#aboutimage{
+    padding: auto;
+    margin-top: 100px;
+    margin-left: 12px;
+    margin-right: 24px;
+}
+
+#aboutimage p{
+    font-weight: 300;
+    text-align: center;
+}
+
+#columnleft{
+    float: left;
+    padding: 32px;
+    width: 300px;
+    height: 640px;
+    background-color: #e6e6e6;
+}
+
+#columnright{
+    float: left;
+    padding: 70px 32px;
+    width: 500px;
+    height: 640px;
+}
+
+#columnright p{
+    min-width: 1000px;
+    max-width: 640px;
+    padding-top: 32px;
+}
+
+#columnright b{
+    font-size: 2em;
+    color: orange;
+}
+
+#headerleft{
+    float:left;
+    line-height: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+#headerright, a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+#horizontal-list-2 ul{
+    list-style-type: none;
+    float: inherit;
+    margin: 16px;
+    padding: 16px;
+    overflow: hidden;
+}
+
+#horizontal-list-2 a{
+    float: inherit;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+
+#horizontal-list-2 a:hover{
+    color: orange;
+} 
+#gallery{
+    padding-top: 32px;
+}
+#subtitle {
+    font-size: 2em;
+    font-weight: 500;
+    color: orange;
+    padding-top: 32px;
+}
+
+#subtitle p{
+    background-color: #e6e6e6;
+    min-height: 50px;
+    text-align: center;
+}
+
+#subtitle2{
+    width: 100%;
+    text-align: center;
+}
+
+
+ul{ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+}
+
+li a{
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: orange;
+}
+
